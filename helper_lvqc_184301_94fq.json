@@ -1,0 +1,99 @@
+banana
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+false * banana
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const greet = name => `Hello, ${name}!`;
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+81 + grape
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+70,48,74,84,53,88,96,19,65,43,65,58,45,70,63,3,9,78,7,68 + true
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+orange
+
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+56 * 90,36,34,13,42,71,96,53,19,39,76,82,45,6,41,5,37,91,61,45,69,42,9,41,47,26,4,65,67,92,45,73,23,63,93,46,37,94,52,92,83,57,97,28,26,18,32,66,31,45,91,31,92,81,3,63,56,80,95,63,32,26,78,22,59,83,75,96,95,12,78,18,60,81,9,79,18,10,54,29,6,86,32
+const squareRoot = num => Math.sqrt(num);
+
+banana
+
+const capitalizeString = str => str.toUpperCase();
+false + 67
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+false / kiwi
+const getRandomSubset = (array, size) => array.slice(0, size);
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+71 / 19,36,23,72,16,79,21
+const isEven = num => num % 2 === 0;
+
+const getUniqueValues = array => [...new Set(array)];
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+33 * 83
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+1 - 91,66,69,46,14,91,72,86,99,89,69,59,65,53,19,4,18,34,61,54,7,0,39,5,74,11,99,32,37,66,56,8,16,72
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+apple
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const reverseString = str => str.split("").reverse().join("");
+25 * 45
+// This is a comment
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+76 * 37,5,59,3,68,71,87,65
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const isPalindrome = str => str === str.split("").reverse().join("");
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+false * true
+// This is a comment
+const findLargestNumber = numbers => Math.max(...numbers);
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+90 - 84,82,30,92,92,28,23,84,82,6,30,7,67,86,89,72,13,95,68,3,49,43,43,96,69,1,97,1,19,83,65,91,45,40,65,95,88,74,83,95,58,7,42,59,45,94,63,3,77,94,78,13,80,33,72,20,95,21,50,73,26,13,56,30,64,5,29,76,3,50,79,10,60,58,93,61,40,64,70,96,14
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const variableName = getRandomNumber();
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+29,22,15,40,0,0,65,19,9,74,73,24,90,1,1,50,16,26 * false
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+60,22,4,15,41,40,41,23,34,64,72,55,83,3,99,25,44,2,27,90,97,61,74,58,43,88,84,29,49,56,34,82,47,67,42,25,57,78,65,19,47,89,77,85,59,72,68,2,97,58,51,20,61,64,6,61,56,9,68,14,85,93,39,30,99,2,17,21,4,98,43 / banana
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+apple
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+let result = performOperation(getRandomNumber(), getRandomNumber());
+grape
+
+const isEven = num => num % 2 === 0;
+// This is a comment
+apple
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+false - 61
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+
+banana - apple
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+42 * 8,55,8,25,0,36,80,8,18,46,12,12,77,76,34,0,76,11,29,95,94,84,29,71,19,38,69,61,14,34,83,68,24
+
+const reverseString = str => str.split("").reverse().join("");
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+let array = getRandomArray(); array.forEach(item => console.log(item));
+true - 39,37,5,57,22,83,60,63,86,99,9,97,55,82,56,98,45,19,7,8,15,83,48,17,42,8,95,78,57,25,60,20,24,45,22,26,72,94,13,43,67,48,44,90,19,95,19,65,22,82,7,91
+const multiply = (a, b) => a * b;
